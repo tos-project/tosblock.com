@@ -1,0 +1,216 @@
+/* custom - common */
+body {
+    font-size:14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,div,p,span,strong,a,ul,li,ol,dl,dt,dd {
+    font-family: 'Raleway', sans-serif;
+}
+
+ul,li,dl,dt,dd {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a {
+    transition: all .5s;
+    display: inline-block;
+    cursor: pointer;
+}
+.ui.container {
+    width: 1170px;
+}
+.ui.container h3 {
+    font-weight:600;
+    font-size:1.2rem;
+    text-align: center;
+}
+
+.ui,
+.item,
+.menu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.tac,
+.ui.container .tac {
+    text-align: center;
+}
+.tal,
+.ui.container .tal {
+    text-align: left;
+}
+.tar,
+.ui.container .tar {
+    text-align: right;
+}
+
+/* custom - header */
+header {
+    position: fixed;
+    top:0;
+    left:50%;
+    height:90px;
+    transform: translate(-50%, 0);
+    box-shadow:0px 60px 90px rgba(0,0,0,.3);
+    z-index: 1000;
+}
+header.ui.container.pc {
+    display: block;
+}
+header.ui.container.mobile {
+    display:none;
+}
+header.fixed {
+    position: fixed;
+    transform: translate(-50%, 0);
+}
+header.no-shadow {
+    box-shadow:0px 3px 10px rgba(0,0,0,.05);
+}
+
+header .ui.secondary.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+    height: 90px;
+    background: #fff;
+}
+
+header .ui.secondary.menu .menu.logo {
+    padding-left:30px;
+}
+
+header .ui.secondary.menu>.item {
+    font-weight:600;
+    color: #000;
+}
+
+header .ui.secondary.menu>.item:hover {
+    color: #00419a;
+    font-weight: 600;
+    background: none;
+}
+
+header .ui.secondary.menu>.item.right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 0 0 8px !important;
+    width: 85px;
+    height: inherit;
+    border-radius: 0;
+    background: #00419a;
+}
+
+header .ui.secondary.menu>.item.right>* {
+    color: #fff;
+}
+
+header .ui.secondary.menu>.item.right .menu {
+    top: 160%;
+}
+
+main > div {
+    overflow:hidden;
+}
+
+footer {
+    padding:40px 0 88px;
+    background: #303030;
+}
+footer .ui.container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+footer .ui.container div.foot-info {
+    padding-left:24px;
+    color:#fff;
+}
+footer .ui.container div.foot-info .add {
+    padding: top 4px;
+    font-size:0.88rem;
+    color:#8d8d8d;
+}
+footer .ui.container .sns {
+    padding-left:325px;
+}
+footer .ui.container .sns li {
+    display: inline-block;
+}
+footer .ui.container .sns li+li {
+    margin-left:6px;
+}
+#top_btn {
+    position: fixed;
+    left:50%;
+    bottom:33px;
+    width:33px;
+    height:33px;
+    transform: translate(585px,0);  
+    border:0;
+    padding:0;
+    background:none;
+}
+
+@media (max-width: 1170px) {
+    header.ui.container.pc {
+        display:none;
+    }
+    header.ui.container.mobile {
+        display: block;
+        padding:0 !important;
+        margin:0 !important;
+        width:100% !important;
+        height:48px;
+        background:#fff;
+        line-height:48px;
+    }
+    header.ui.container.mobile:after {
+        clear:both;
+    }
+    header.ui.container.mobile > div {
+        float:left;
+        height:inherit;
+        line-height:inherit;
+        padding:0 16px 0 8px;
+    }
+    header.ui.container.mobile > div:not(.logo) {
+        float:right;
+    }
+    header.ui.container.mobile > .logo {
+        padding:8px 24px;
+    }
+    header.ui.container.mobile > .logo img {
+        height:32px;
+    }
+    .ui.container {
+        padding-left:12px;
+        padding-right:12px;
+        width: 100%;
+    }
+    footer .ui.container {
+        flex-wrap: wrap;    
+    }
+    footer .ui.container div.foot-info {
+        padding:24px 0 0 0;
+    }
+    footer .ui.container .sns{
+        padding:24px 0 0 0;
+        width:100%;
+        text-align: center;
+    }
+}

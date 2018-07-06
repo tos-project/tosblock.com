@@ -1,0 +1,4 @@
+/* custom - common */
+.no-flex {
+    display: table-cell;
+}

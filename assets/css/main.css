@@ -1,0 +1,606 @@
+/* section - home */
+
+#home {
+    position: relative;
+    padding-top: 180px;
+    height: 771px;
+    background: #111f55;
+}
+
+#home .ui.container {
+    position: relative;
+}
+
+#home .description {
+    height: 220px;
+}
+
+#home h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 5.1rem;
+}
+
+#home p {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+#home .linkWrap a+a {
+    margin-left: 40px;
+}
+
+#home .bg {
+    top: 0;
+    left: 50%;
+    position: absolute;
+}
+
+#home .bg1 {
+    transform: translate(-50%, 0);
+}
+
+#home .bg-hand {
+    top: 17px;
+    transform: translate(-7px, 0);
+}
+
+/* section - about */
+
+#about {
+    position: relative;
+    margin-top: -97px;
+    height: 348px;
+    overflow: visible;
+}
+
+#about .description {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: #fff;
+    z-index: 1;
+}
+
+#about h3 {
+    margin: 0;
+    padding: 70px 0;
+}
+
+#about ul {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+#about ul:after {
+    clear: both;
+}
+
+#about ul li {
+    float: left;
+    width: 200px;
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+#about ul li .img-wrap {
+    height: 95px;
+}
+
+#about ul li span {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#about .shadow {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 90%;
+    height: 148px;
+    box-shadow: 0px 0px 120px 20px rgba(0, 0, 0, .3);
+    z-index: 0;
+}
+
+/* section - introduce */
+
+#introduce {
+    position: relative;
+    padding-top: 105px;
+    height: 621px;
+}
+
+#introduce .bg-hand {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-165px, 0);
+}
+
+#introduce .column:after {
+    clear: both;
+}
+
+#introduce .column p {
+    padding-top: 40px;
+    width: 388px;
+    text-align: justify;
+    line-height: 1.8;
+    color: #8d8d8d;
+}
+
+#introduce .column p strong {
+    color: #00419a;
+}
+
+#introduce .column:nth-child(2) p {
+    float: right;
+}
+
+/* section - concept */
+
+#concept {
+    padding-bottom: 48px;
+    background: url('../img/main/concept/concept-bg.jpg') no-repeat top center;
+}
+
+#concept h3 {
+    padding: 56px 0 40px;
+    color: #fff;
+}
+
+#concept p {
+    padding-top: 32px;
+    line-height: 1.7;
+    color: #fff;
+    text-align: justify;
+}
+
+/* section - process */
+
+#process {
+    padding: 88px 0 98px;
+}
+
+#process h3 {
+    margin: 0;
+    padding: 0 0 46px;
+}
+
+#process p {
+    margin-bottom: 40px;
+    color: #8d8d8d;
+    line-height: 1.6;
+}
+
+#process .ui.grid {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+#process .ui.grid>* {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#process .ui.grid table th,
+#process .ui.grid table td {
+    height: 48px;
+    text-align: center;
+}
+
+#process .ui.grid .feature th {
+    background: #7a9cca;
+    color: #fff;
+}
+
+#process .ui.grid .feature td {
+    background: #a4bbdb;
+    color: #fff;
+}
+
+#process .ui.grid .bitcoin th,
+#process .ui.grid .Ethereum th {
+    background: #ccd9eb;
+}
+
+#process .ui.grid .bitcoin td,
+#process .ui.grid .Ethereum td {
+    background: #f5f7fb;
+}
+
+#process .ui.grid .bitcoin tbody tr:nth-child(2n) td,
+#process .ui.grid .Ethereum tbody tr:nth-child(2n) td {
+    background: #e8eef6;
+}
+
+#process .ui.grid .tos th {
+    color: #fff;
+    background: #111f55;
+    font-weight: 600;
+}
+
+#process .ui.grid .tos td {
+    background: #bbc3d5;
+    font-weight: 600;
+}
+
+#process .ui.grid table,
+#process .ui.grid table td {
+    border: none;
+}
+
+#process .ui.grid tr th,
+#process .ui.grid tr:not(:last-child) * {
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+
+#process .ui.grid .tos tbody tr:nth-child(2n) td {
+    color: #fff;
+    background: #63729a;
+}
+
+#process .ui.grid .tos .twoline {
+    padding: 0px;
+}
+
+/* section - walltes */
+
+#wallets {
+    padding-top: 104px;
+    min-height: 579px;
+    height: auto;
+    background: url('../img/main/wallets/wallet-bg.jpg') no-repeat center center;
+    background-size: 110%;
+}
+
+#wallets .column .description {
+    height: 150px;
+}
+
+#wallets .column ul li {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+}
+
+#wallets .column ul:after {
+    clear: both;
+}
+
+#wallets .column:first-child h3 {
+    margin-bottom: 48px;
+    color: #fff;
+}
+
+#wallets .column:first-child p {
+    color: #fff;
+}
+
+/* section - notice */
+
+#notice {
+    padding: 96px 0 48px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#notice h3 {
+    margin-bottom: 40px;
+}
+
+/* section - press */
+
+#press {
+    padding: 48px 0;
+}
+
+#press h3 {
+    margin-bottom: 40px;
+}
+
+/* bbs common*/
+
+.bbs-list {
+    padding-top: 4px;
+    overflow: hidden;
+    height: 488px;
+}
+
+.bbs-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 108px;
+}
+
+.bbs-list li>div.thumb {
+    width: 165px;
+}
+
+.bbs-list li>div.description {
+    position: relative;
+    padding: 2px 160px 2px 36px;
+    height: inherit;
+}
+
+.bbs-list li>div.description .date {
+    font-size: 0.92rem;
+    color: #000;
+}
+
+.bbs-list li>div.description .subject {
+    margin: 0 auto 12px;
+    font-weight: 600;
+    font-size: 1.08rem;
+    color: #000;
+}
+
+.bbs-list li>div.description .contents {
+    margin: 0;
+    font-size: 0.92rem;
+    color: #8d8d8d;
+    line-height: 1.2;
+}
+
+.bbs-list li>div.description a.more {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+}
+
+.bbs-list li:after {
+    clear: both;
+}
+
+/* bbs custom - swiper */
+
+.swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 20px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 0;
+    background: #ccd9eb;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 16px;
+    height: 16px;
+    border-radius: 0;
+    background: #00419a;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    top: 460px;
+    width: 34px;
+    height: 34px;
+    background: none;
+}
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-next {
+    right: 50%;
+    transform: translate(144px, 0)
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-prev {
+    left: 50%;
+    transform: translate(-144px, 0)
+}
+
+/* section - dev-team */
+
+#dev-team {
+    padding: 88px 0 40px;
+}
+
+#dev-team h3 {
+    margin-bottom: 52px;
+}
+
+/* section - advisor */
+
+#advisor {
+    padding: 48px 0 40px;
+}
+
+#advisor h3 {
+    margin-bottom: 52px;
+}
+
+/* man-list common */
+
+.man-list.ui.grid>.column:not(.row) {
+    padding-bottom: 32px;
+}
+
+.man-list .column img {
+    display: inline-block;
+    width: 120px;
+}
+
+.man-list .column div {
+    display: inline-block;
+    padding: 16px 0 0 8px;
+    max-width: 152px;
+    font-size: 0.96rem;
+    color: #000;
+    font-weight: 600;
+    vertical-align: top;
+}
+
+.man-list .column div a {
+    margin-top: 8px;
+    width: 25px;
+    height: 25px;
+}
+
+.man-list .column div a img {
+    width: 100%;
+}
+
+.man-list .column p {
+    padding-top: 18px;
+    font-size: 0.96rem;
+    letter-spacing: -1px;
+    color: #8d8d8d;
+}
+
+@media (max-width: 1024px) {
+    #home {
+        padding-top: 120px;
+        padding-bottom: 176px;
+        height: auto;
+        min-height:520px;
+    }
+    #home .bg-hand {
+        top: unset;
+        bottom: -8px;
+        width: 80%;
+        opacity: 0.7;
+    }
+    #home h2 {
+        font-size: 3.6rem;
+    }
+    #home .description {
+        height: auto;
+        min-height: 180px;
+    }
+    #home .linkWrap {
+        width: 300px;
+    }
+    #home .linkWrap a+a {
+        margin-left: 10px;
+    }
+    #home .linkWrap img {
+        width: 128px;
+    }
+    .ui.table:not(.unstackable) tr {
+        padding: 1px 0;
+    }
+    #about {
+        margin-top: -56px;
+        height: auto;
+        padding-bottom:16px;
+        background: #fff;
+        box-shadow:0px 16px 24px rgba(0, 0, 0, .15);
+    }
+    #about .description {
+        position: relative;
+        width: auto;
+    }
+    #about .shadow {
+        display: none;
+    }
+    #about h3 {
+        padding: 48px 0;
+    }
+    #about ul {
+        text-align: center;
+    }
+    #about ul li {
+        float:unset;
+        margin-bottom:32px;
+        width:100%;
+    }
+    #introduce {
+        padding:88px 0 240px;
+        height: inherit;
+    }
+    #introduce .column p {
+        color:#202020;
+        width:inherit;
+    }
+    #introduce .bg-hand {
+        transform: translate(-50%,0);
+        width:48%;
+        opacity: 0.4;
+    }
+    #concept {
+        padding-bottom:64px;
+    }
+    #concept p {
+        font-size:0.96rem;
+        line-height: 1.6;   
+    }
+    #concept img {
+        width:100%;
+    }
+    #wallets {
+        padding:88px 0 104px;
+        background: #111f55;
+    }
+    #wallets .column .description {
+        height:auto;
+        padding-bottom:32px;
+    }
+    #wallets .column h3{
+        padding-top:24px;
+        color:#fff;
+    }
+    #wallets .column ul li img {
+        width:100%;
+    }
+    #process .ui.grid table th,
+    #process .ui.grid table td {
+        height: 32px;
+        line-height: 24px;
+    }
+    #process .ui.grid table td.twoline {
+        height: 48px;
+        line-height: 20px;
+    }
+    .bbs-list li>div.description {
+        padding:2px 88px 2px 16px;
+        max-width:280px;
+    }
+    .bbs-list li>div.description .contents {
+        display: none;
+    }
+    .bbs-list li>div.description a.more {
+        width:80px;
+    }
+    .bbs-list li>div.description a.more img {
+        width: 100%;
+    }
+    .bbs-list li>div.thumb {
+        min-width: 96px;
+        max-width: 144px;
+        height:108px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .bbs-list li>div.thumb img {
+        width:100%;
+    }
+    .ui.container > .ui.stackable.grid > .column, 
+    .ui.container > .ui.stackable.grid > .row > .column {
+        max-width: 280px;
+        margin-left:auto !important;
+        margin-right:auto !important;
+    }
+}
